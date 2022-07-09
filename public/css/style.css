@@ -845,7 +845,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 112px;
+  padding: 112px 0;
   position: relative;
 }
 .dizme_tm_about .wrapper {
@@ -863,7 +863,7 @@ h6 {
   position: relative;
 }
 .dizme_tm_about .left .image img {
-  max-height: 800px;
+  max-height: 420px;
 }
 .dizme_tm_about .numbers {
   position: absolute;
@@ -1531,7 +1531,7 @@ h6 {
   padding-left: 100px;
 }
 .dizme_tm_skills .right img {
-  max-height: 800px;
+  max-height: 600px;
 }
 
 /*---------------------------------------------------*/

@@ -21,10 +21,10 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
+                <span>Coding is Life</span>
+                <h3>I develop new skills regularly to keep me competitive</h3>
                 <p>
-                  Most common methods for designing websites that work well on
+                  Most common methods for building websites that work well on
                   desktop is responsive and adaptive design
                 </p>
               </div>
@@ -43,7 +43,7 @@ const Skills = ({ dark }) => {
                     >
                       <span>
                         <span className="label">{skill.name}</span>
-                        <span className="number">{skill.value}%</span>
+                        {/* <span className="number">{skill.value}%</span> */}
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -55,7 +55,7 @@ const Skills = ({ dark }) => {
               </div>
             </div>
             <div className="right">
-              <img src={`img/skills/${dark ? 2 : 1}.jpg`} alt="image" />
+              <img src={`img/skills/shopify.png`} alt="image" />
             </div>
           </div>
         </div>

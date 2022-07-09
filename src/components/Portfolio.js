@@ -58,7 +58,7 @@ const Portfolio = () => {
               desktop is responsive and adaptive design
             </p>
           </div>
-          <div className="portfolio_filter">
+          {/* <div className="portfolio_filter">
             <ul>
               <li>
                 <a
@@ -109,11 +109,11 @@ const Portfolio = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="dizme_tm_portfolio_titles" />
           <div className="portfolio_list wow fadeInUp" data-wow-duration="1s">
             <ul className="gallery_zoom grid">
-              <li className="youtube grid-item">
+              {/* <li className="youtube grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -184,29 +184,203 @@ const Portfolio = () => {
                     <span>Soundcloud</span>
                   </div>
                 </div>
+              </li> */}
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Shopify Store"
+                    data-category="store password: password123"
+                  >
+                    <a className="zoom" href="https://amycases.myshopify.com/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/sneaker-img-one.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/sneaker-img-one.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Shopify Store</h3>
+                    <span>store password: password123</span>
+                  </div>
+                </div>
+              </li>
+
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Coinbase"
+                    data-category="Landing Page"
+                  >
+                    <a className="zoom" href="https://jazzy-mandazi-acb24f.netlify.app/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/coinbase-page-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/coinbase-page-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Coinbase</h3>
+                    <span>Landing Page</span>
+                  </div>
+                </div>
+              </li>
+
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Hotjar"
+                    data-category="Newsletter"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/hotjar_newsletter/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/hotjar-img.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/hotjar-img.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Hotjar</h3>
+                    <span>Newsletter</span>
+                  </div>
+                </div>
+              </li>
+
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Apple Receipt"
+                    data-category="Transactional email"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/apple_transactional_email/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/apple-receipt-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/apple-receipt-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Apple Receipt</h3>
+                    <span>Transactional email</span>
+                  </div>
+                </div>
+              </li>
+
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Forever 21"
+                    data-category="Promotional Email"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/frame-email/forever.html" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/forever-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/forever-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Forever 21</h3>
+                    <span>Promotional Email</span>
+                  </div>
+                </div>
+              </li>
+
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="e.l.f. Cosmetics"
+                    data-category="Newsletter"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/frame-email/elf.html" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/elf-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/elf-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>e.l.f. Cosmetics</h3>
+                    <span>Newsletter</span>
+                  </div>
+                </div>
               </li>
               <li className="popup grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Scott Felix"
-                    data-category="Popup"
+                    data-title="Dollar General"
+                    data-category="Promotional Email"
                   >
-                    <a className="zoom" href="img/portfolio/5.jpg">
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                    <a className="zoom" href="https://quandre.github.io/frame-email/dollarG.html" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/dollar-img-one.JPG" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/5.jpg"
+                        data-img-url="img/portfolio/dollar-img-one.JPG"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Blue Lemon</h3>
-                    <span>Popup</span>
+                    <h3>Dollar General</h3>
+                    <span>Promotional Email</span>
                   </div>
                 </div>
               </li>
               <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Scentbird"
+                    data-category="Newsletter"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/scentbird_newsletter/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/scentbird-news-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/scentbird-news-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Scentbird</h3>
+                    <span>Promotional Email</span>
+                  </div>
+                </div>
+              </li>
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Scentbird"
+                    data-category="Promotional Email"
+                  >
+                    <a className="zoom" href="https://quandre.github.io/Scentbird_promotional_email/" target="_blank" rel="noreferrer">
+                      <img src="img/portfolio/scentbird-promo-img-one.JPG" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/scentbird-promo-img-one.JPG"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Scentbird</h3>
+                    <span>Promotional Email</span>
+                  </div>
+                </div>
+              </li>
+              
+              {/* <li className="popup grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -226,9 +400,9 @@ const Portfolio = () => {
                     <span>Popup</span>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
-              <li className="detail grid-item" onClick={() => setPopup(true)}>
+              {/* <li className="detail grid-item" onClick={() => setPopup(true)}>
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -248,7 +422,7 @@ const Portfolio = () => {
                     <span>Detail</span>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

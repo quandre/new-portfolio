@@ -42,7 +42,7 @@ const MobileMenu = ({ logo }) => {
                 Portfolio
               </a>
             </li>
-            <li>
+            {/* <li>
               <a onClick={() => setToggle(false)} href="#service">
                 Service
               </a>
@@ -56,12 +56,12 @@ const MobileMenu = ({ logo }) => {
               <a onClick={() => setToggle(false)} href="#contact">
                 Contact
               </a>
-            </li>
-            <li className="download_cv">
+            </li> */}
+            {/* <li className="download_cv">
               <a href="img/cv/1.jpg" download="">
                 <span>Download CV</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

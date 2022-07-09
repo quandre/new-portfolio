@@ -113,14 +113,14 @@ export const activeSkillProgress = () => {
     if (boxTop < triggerBottom) {
       boxItem.classList.add("open");
       label[0].classList.add("opened");
-      number[0].style.right = `${100 - pWidth}%`;
+      // number[0].style.right = `${100 - pWidth}%`;
       boxItem.getElementsByClassName("bar_in")[0].style.width = `${pWidth}%`;
       boxItem.getElementsByClassName("bar_in")[0].style.backgroundColor =
         pColor;
     } else {
       boxItem.classList.remove("open");
       label[0].classList.remove("opened");
-      number[0].style.right = `${120}%`;
+      // number[0].style.right = `${120}%`;
     }
   });
 };
