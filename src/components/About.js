@@ -7,7 +7,7 @@ const About = ({ dark }) => {
           <div className="wrapper">
             <div className="left">
               <div className="image">
-                <img src={`img/skills/MailChimp.png`} alt="image" />
+                <img src={`img/skills/html.png`} alt="image" />
                 {/* <div className="numbers year">
                   <div className="wrapper">
                     <h3>

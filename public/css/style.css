@@ -947,6 +947,7 @@ h6 {
   clear: both;
   text-align: center;
   margin: 0px auto;
+  padding-bottom: 50px;
 }
 .dizme_tm_main_title[data-align="left"] {
   text-align: left;

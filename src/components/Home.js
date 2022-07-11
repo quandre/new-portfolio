@@ -36,8 +36,8 @@ const Home = ({ dark }) => {
               </div>
               <div className="button">
                 <div className="dizme_tm_button">
-                  <a className="anchor" href="#about">
-                    <span>About Me</span>
+                  <a className="anchor" href="#portfolio">
+                    <span>Portfolio</span>
                   </a>
                 </div>
                 <div className="social">
@@ -56,11 +56,11 @@ const Home = ({ dark }) => {
               </div>
             </div>
             <div className="avatar">
-              <div className="image">
-                {/* <img
+              {/* <div className="image">
+                <img
                   src={data && data.img ? data.img : "/img/slider/avatar.png"}
                   alt="image"
-                /> */}
+                />
                 {data &&
                   data.skills &&
                   data.skills.map(
@@ -74,7 +74,7 @@ const Home = ({ dark }) => {
                         </span>
                       )
                   )}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
