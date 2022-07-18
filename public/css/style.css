@@ -394,7 +394,7 @@ h6 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .dizme_tm_header.animate {
   background-color: #fff;
@@ -853,6 +853,7 @@ h6 {
   height: auto;
   clear: both;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .dizme_tm_about .left {
@@ -934,6 +935,10 @@ h6 {
   position: absolute;
   bottom: -50px;
   right: 0px;
+}
+
+.about_button {
+  text-align: center;
 }
 
 /*---------------------------------------------------*/
@@ -1412,18 +1417,40 @@ h6 {
   height: auto;
   clear: both;
   float: left;
+  padding: 100px 0;
 }
 .dizme_tm_skills .wrapper {
   width: 100%;
   height: auto;
   clear: both;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .dizme_tm_skills .left {
   width: 50%;
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
+.dizme_tm_skills .left .dizme_tm_main_title{
+  text-align: center;
+}
+.dizme_tm_skills .left .skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dizme_tm_skills .left .skills .skill-img {
+  padding: 10px;
+}
+.dizme_tm_skills .left .skills .skill-img img {
+  width: 80px;
+  height: 80px;
+}
+.dizme_tm_skills .left .skills .skill-img h5 {
+  text-align: center;
+  padding-top: 10px;
+}
+
 .dodo_progress {
   width: 100%;
   height: auto;
@@ -3484,5 +3511,8 @@ input[type="number"] {
   }
   .dizme_tm_contact {
     margin-bottom: 120px;
+  }
+  .dizme_tm_skills .left .skills {
+    flex-wrap: wrap;
   }
 }

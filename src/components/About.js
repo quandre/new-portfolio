@@ -5,10 +5,10 @@ const About = ({ dark }) => {
       <div className="dizme_tm_about">
         <div className="container">
           <div className="wrapper">
-            <div className="left">
+            {/* <div className="left">
               <div className="image">
                 <img src={`img/skills/html.png`} alt="image" />
-                {/* <div className="numbers year">
+                <div className="numbers year">
                   <div className="wrapper">
                     <h3>
                       <Counter end={18} />
@@ -19,8 +19,8 @@ const About = ({ dark }) => {
                       Success
                     </span>
                   </div>
-                </div> */}
-                {/* <div className="numbers project">
+                </div>
+                <div className="numbers project">
                   <div className="wrapper">
                     <h3>
                       <Counter end={9} />K
@@ -31,9 +31,9 @@ const About = ({ dark }) => {
                       Projects
                     </span>
                   </div>
-                </div> */}
+                </div>
               </div>
-            </div>
+            </div> */}
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
                 <span>{`I'm a Email Developer and Frontend Developer`}</span>
@@ -46,7 +46,7 @@ const About = ({ dark }) => {
                 </p>
               </div>
               <div
-                className="dizme_tm_button wow fadeInUp"
+                className="dizme_tm_button wow fadeInUp about_button"
                 data-wow-duration="1s"
               >
                 <a className="anchor" href="https://www.linkedin.com/in/quandremyers/" target="_blank" rel="noreferrer">

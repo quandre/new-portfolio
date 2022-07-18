@@ -99,31 +99,31 @@ export const aTagClick = () => {
     });
   }
 };
-export const activeSkillProgress = () => {
-  const progress_inner = document.querySelectorAll(".skillsInner___"),
-    triggerBottom = (window.innerHeight / 5) * 5;
-  progress_inner.forEach((box) => {
-    const boxTop = box.getBoundingClientRect().top,
-      boxElement = box.getElementsByClassName("bar"),
-      label = box.getElementsByClassName("label"),
-      number = box.getElementsByClassName("number"),
-      boxItem = boxElement[0],
-      pWidth = box.getAttribute("data-value"),
-      pColor = box.getAttribute("data-color");
-    if (boxTop < triggerBottom) {
-      boxItem.classList.add("open");
-      label[0].classList.add("opened");
-      // number[0].style.right = `${100 - pWidth}%`;
-      boxItem.getElementsByClassName("bar_in")[0].style.width = `${pWidth}%`;
-      boxItem.getElementsByClassName("bar_in")[0].style.backgroundColor =
-        pColor;
-    } else {
-      boxItem.classList.remove("open");
-      label[0].classList.remove("opened");
-      // number[0].style.right = `${120}%`;
-    }
-  });
-};
+// export const activeSkillProgress = () => {
+//   const progress_inner = document.querySelectorAll(".skillsInner___"),
+//     triggerBottom = (window.innerHeight / 5) * 5;
+//   progress_inner.forEach((box) => {
+//     const boxTop = box.getBoundingClientRect().top,
+//       boxElement = box.getElementsByClassName("bar"),
+//       label = box.getElementsByClassName("label"),
+//       number = box.getElementsByClassName("number"),
+//       boxItem = boxElement[0],
+//       pWidth = box.getAttribute("data-value"),
+//       pColor = box.getAttribute("data-color");
+//     if (boxTop < triggerBottom) {
+//       boxItem.classList.add("open");
+//       label[0].classList.add("opened");
+//       number[0].style.right = `${100 - pWidth}%`;
+//       boxItem.getElementsByClassName("bar_in")[0].style.width = `${pWidth}%`;
+//       boxItem.getElementsByClassName("bar_in")[0].style.backgroundColor =
+//         pColor;
+//     } else {
+//       boxItem.classList.remove("open");
+//       label[0].classList.remove("opened");
+//       number[0].style.right = `${120}%`;
+//     }
+//   });
+// };
 // Data image
 export const dataImage = () => {
   let d = document.querySelectorAll("[data-img-url");

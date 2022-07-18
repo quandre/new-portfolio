@@ -6,9 +6,9 @@ const Skills = ({ dark }) => {
   useEffect(async () => {
     setData(await fatchData("/static/info.json"));
   }, []);
-  useEffect(() => {
-    window.addEventListener("scroll", activeSkillProgress);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", activeSkillProgress);
+  // }, []);
 
   return (
     <div className="dizme_tm_section">
@@ -21,18 +21,41 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Coding is Life</span>
+                <span>Skills</span>
                 <h3>I develop new skills regularly to keep me competitive</h3>
-                <p>
-                  Most common methods for building websites that work well on
-                  desktop is responsive and adaptive design
-                </p>
+                <p></p>
               </div>
               <div
-                className="dodo_progress wow fadeInUp"
+                className="dodo_progress wow fadeInUp skills"
                 data-wow-duration="1s"
               >
-                {data &&
+                <div className="skill-img">
+                  <img src={`img/skills/html.png`} alt="" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/css.png`} alt="" />
+                  <h5>CSS</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/wordpress.png`} alt="" />
+                  <h5>CMS</h5>
+                </div>
+                
+                <div className="skill-img">
+                  <img src={`img/skills/photoshop.png`} alt="" />
+                  <h5>Photoshop</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/mailchimp.png`} alt="" />
+                  <h5>Testing</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/analytics.png`} alt="" />
+                  <h5>Analytics</h5>
+                </div>
+
+                {/*{data &&
                   data.skills &&
                   data.skills.map((skill, i) => (
                     <div
@@ -43,7 +66,7 @@ const Skills = ({ dark }) => {
                     >
                       <span>
                         <span className="label">{skill.name}</span>
-                        {/* <span className="number">{skill.value}%</span> */}
+                        <span className="number">{skill.value}%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -51,12 +74,12 @@ const Skills = ({ dark }) => {
                         </div>
                       </div>
                     </div>
-                  ))}
+                  ))}*/}
               </div>
             </div>
-            <div className="right">
+            {/* <div className="right">
               <img src={`img/skills/shopify.png`} alt="image" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

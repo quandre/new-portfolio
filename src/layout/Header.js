@@ -3,13 +3,13 @@ const Header = ({ logo }) => {
     <div className="dizme_tm_header">
       <div className="container">
         <div className="inner">
-          <div className="logo">
+          {/* <div className="logo">
             <a href="#">
               {logo && (
                 <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
               )}
             </a>
-          </div>
+          </div> */}
           <div className="menu">
             <ul className="anchor_nav">
               <li className="current">
