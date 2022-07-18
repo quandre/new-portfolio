@@ -58,7 +58,7 @@ const Portfolio = () => {
               desktop is responsive and adaptive design
             </p>
           </div>
-          {/* <div className="portfolio_filter">
+          <div className="portfolio_filter">
             <ul>
               <li>
                 <a
@@ -71,45 +71,29 @@ const Portfolio = () => {
               <li>
                 <a
                   className={`c-pointer ${activeBtn("youtube")}`}
-                  onClick={handleFilterKeyChange("youtube")}
+                  onClick={handleFilterKeyChange("email")}
                 >
-                  Youtube
+                  Emails
                 </a>
               </li>
               <li>
                 <a
                   className={`c-pointer ${activeBtn("vimeo")}`}
-                  onClick={handleFilterKeyChange("vimeo")}
+                  onClick={handleFilterKeyChange("cms")}
                 >
-                  Vimeo
+                  CMS
                 </a>
               </li>
               <li>
                 <a
                   className={`c-pointer ${activeBtn("soundcloud")}`}
-                  onClick={handleFilterKeyChange("soundcloud")}
+                  onClick={handleFilterKeyChange("landing-page")}
                 >
-                  Soundcloud
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("popup")}`}
-                  onClick={handleFilterKeyChange("popup")}
-                >
-                  Popup
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer  ${activeBtn("detail")}`}
-                  onClick={handleFilterKeyChange("detail")}
-                >
-                  Detail
+                  Landing Page
                 </a>
               </li>
             </ul>
-          </div> */}
+          </div>
           <div className="dizme_tm_portfolio_titles" />
           <div className="portfolio_list wow fadeInUp" data-wow-duration="1s">
             <ul className="gallery_zoom grid">
@@ -185,7 +169,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li> */}
-              <li className="popup grid-item">
+              <li className="cms grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -207,7 +191,7 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="popup grid-item">
+              <li className="landing-page grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -229,7 +213,7 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -251,7 +235,7 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -273,7 +257,7 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -295,7 +279,7 @@ const Portfolio = () => {
                 </div>
               </li>
 
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -316,7 +300,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -337,7 +321,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -358,7 +342,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="popup grid-item">
+              <li className="email grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
