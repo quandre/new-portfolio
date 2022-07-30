@@ -14,7 +14,7 @@ const Home = ({ dark }) => {
         <div
           className="background"
           data-img-url={`img/slider/${dark ? 2 : 1}.jpg`}
-          // style={{ backgroundImage: `img/slider/${dark ? 2 : 1}.jpg` }}
+          style={{ backgroundImage: `img/slider/${dark ? 2 : 1}.jpg` }}
         />
         <div className="container">
           <div className="content">
@@ -28,7 +28,7 @@ const Home = ({ dark }) => {
               <div className="job">
                 <p>
                   A <span className="greenText">{data && data.mainSkill}</span>{" "}
-                  From <span className="purpleText">{data.address}</span>
+                  {/* From <span className="purpleText">{data.address}</span> */}
                 </p>
               </div>
               <div className="text">
@@ -56,12 +56,12 @@ const Home = ({ dark }) => {
               </div>
             </div>
             <div className="avatar">
-              {/* <div className="image">
+              <div className="image">
                 <img
-                  src={data && data.img ? data.img : "/img/slider/avatar.png"}
+                  src={data && data.img ? data.img : "/img/slider/quan.png"}
                   alt="image"
                 />
-                {data &&
+                {/* {data &&
                   data.skills &&
                   data.skills.map(
                     (skill, i) =>
@@ -73,8 +73,8 @@ const Home = ({ dark }) => {
                           {parse(skill.icon)}
                         </span>
                       )
-                  )}
-              </div> */}
+                  )} */}
+              </div>
             </div>
           </div>
         </div>
