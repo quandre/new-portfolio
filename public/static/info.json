@@ -43,7 +43,7 @@
     }
   ],
   "social": [
-    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "https://www.linkedin.com/in/quandremyers/" },
+    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "https://www.linkedin.com/in/quandremyers" },
     { "name": "github", "icon": "icon-github-1", "url": "https://github.com/quandre" }
   ],
   "contact": {
