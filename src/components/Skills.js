@@ -38,21 +38,36 @@ const Skills = ({ dark }) => {
                   <h5>CSS</h5>
                 </div>
                 <div className="skill-img">
-                  <img src={`img/skills/wordpress.png`} alt="" />
-                  <h5>CMS</h5>
+                  <img src={`img/skills/javascript.png`} alt="" />
+                  <h5>Javascript</h5>
                 </div>
-                
+                <div className="skill-img">
+                  <img src={`img/skills/shopify.png`} alt="" />
+                  <h5>Shopify</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/github.png`} alt="" />
+                  <h5>Github</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/litmus.png`} alt="" />
+                  <h5>Litmus</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/mailchimp.png`} alt="" />
+                  <h5>Mailchimp</h5>
+                </div>
+                <div className="skill-img">
+                  <img src={`img/skills/figma.png`} alt="" />
+                  <h5>Figma</h5>
+                </div>
                 <div className="skill-img">
                   <img src={`img/skills/photoshop.png`} alt="" />
                   <h5>Photoshop</h5>
                 </div>
                 <div className="skill-img">
-                  <img src={`img/skills/mailchimp.png`} alt="" />
-                  <h5>Testing</h5>
-                </div>
-                <div className="skill-img">
                   <img src={`img/skills/analytics.png`} alt="" />
-                  <h5>Analytics</h5>
+                  <h5>Google Analytics</h5>
                 </div>
 
                 {/*{data &&
