@@ -1,16 +1,8 @@
 import Head from "next/head";
-import { Fragment, useEffect } from "react";
-// import { hotjar } from 'react-hotjar';
-// import Drift from "react-driftjs";
+import { Fragment } from "react";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  {
-    /* Hotjar Tracking Code for https://quandremyers.com/ */
-  }
-  // useEffect(() => {
-  //   hotjar.initialize(2927136, 6);
-  // }, []);
   return (
     <Fragment>
       <Head>
@@ -37,9 +29,6 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
-        {/* Start of Async Drift Code */}
-        {/* <Drift appId="rakhxr6y2v24" />; */}
-        {/* End of Async Drift Code */}
       </Head>
       <Component {...pageProps} />
     </Fragment>
