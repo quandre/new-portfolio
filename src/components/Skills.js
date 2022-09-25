@@ -41,6 +41,11 @@ const Skills = ({ dark }) => {
                   <img src={`img/skills/javascript.png`} alt="" />
                   <h5>Javascript</h5>
                 </div>
+                
+                <div className="skill-img">
+                  <img src={`img/skills/mjml.png`} alt="" />
+                  <h5>MJML</h5>
+                </div>
                 <div className="skill-img">
                   <img src={`img/skills/shopify.png`} alt="" />
                   <h5>Shopify</h5>
@@ -56,10 +61,6 @@ const Skills = ({ dark }) => {
                 <div className="skill-img">
                   <img src={`img/skills/mailchimp.png`} alt="" />
                   <h5>Mailchimp</h5>
-                </div>
-                <div className="skill-img">
-                  <img src={`img/skills/figma.png`} alt="" />
-                  <h5>Figma</h5>
                 </div>
                 <div className="skill-img">
                   <img src={`img/skills/photoshop.png`} alt="" />

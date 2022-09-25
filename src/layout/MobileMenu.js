@@ -5,11 +5,11 @@ const MobileMenu = ({ logo }) => {
     <div className="dizme_tm_mobile_menu">
       <div className="mobile_menu_inner">
         <div className="mobile_in">
-          <div className="logo">
+          {/* <div className="logo">
             <a href="#">
               <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
             </a>
-          </div>
+          </div> */}
           <div className="trigger">
             <div
               className={`hamburger hamburger--slider ${
